@@ -1,0 +1,26 @@
+{
+    "parameterSets": {
+        "minimum": {
+            "$fn": "80",
+            "faceThickness": "2",
+            "shaftBottomThickness": "3",
+            "shaftDiameter": "6.3",
+            "shaftHeight": "9",
+            "shaftWallThickness": "5.2",
+            "shieldHeight": "0"
+        },
+        "SlowCooker": {
+            "$fn": "80",
+            "faceThickness": "2",
+            "reinforcement": "false",
+            "reinforcementHeight": "8",
+            "shaftBottomThickness": "3",
+            "shaftDiameter": "6.2",
+            "shaftHeight": "9",
+            "shaftWallThickness": "6",
+            "shieldHeight": "18"
+        }
+    },
+    "parameterSets": "",
+    "fileFormatVersion": "1"
+}
