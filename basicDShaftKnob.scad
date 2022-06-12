@@ -136,18 +136,22 @@ module knob(
                     }
                 }
         }
-        union(){
-            difference()
+        difference()
+        {
+            union()
             {
-                externalSurface();
-                internalSurface();
-                dial(angle = dialAngle);
-            }
-            reinforcement();
+                difference()
+                {
+                    externalSurface();
+                    internalSurface();
+                    
+                }
+                reinforcement();
                 
+            }   
+            dial(angle = dialAngle);
         }
-        
-        reinforcement();
+
     }
 
     union(){
