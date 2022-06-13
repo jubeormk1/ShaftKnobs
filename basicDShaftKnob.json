@@ -19,6 +19,18 @@
             "shaftHeight": "9",
             "shaftWallThickness": "6",
             "shieldHeight": "18"
+        },
+        "slow cooker untested": {
+            "$fn": "80",
+            "dialAngle": "45",
+            "faceThickness": "2",
+            "reinforcement": "true",
+            "reinforcementHeight": "8",
+            "shaftColumnBottomThickness": "3",
+            "shaftColumnThickness": "6",
+            "shaftDiameter": "6.3",
+            "shaftHeight": "10",
+            "shieldHeight": "18"
         }
     },
     "parameterSets": "",
